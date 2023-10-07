@@ -6,7 +6,13 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-    res.status(201).json({ wiadomosc: 'Dodanie nowej książki' });
+    const book = {
+        author: req.body.author,
+        title: req.body.title,
+        price: req.body.price,
+    };
+    res.status(201).json({ wiadomosc: 'Dodanie nowej książki', info: book });
+
 });
 
 router.get('/:bookId', (req, res, next) => {

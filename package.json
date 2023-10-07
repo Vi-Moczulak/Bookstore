@@ -1,0 +1,19 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "api dla sklepu z ksiazkami",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "rest",
+    "bookstore"
+  ],
+  "author": "Wiktoria Moczulak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

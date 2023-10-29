@@ -12,4 +12,3 @@ const server = http.createServer(app);
 
 // odpalam serwer
 server.listen(port);
- 

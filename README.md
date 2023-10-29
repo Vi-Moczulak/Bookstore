@@ -8,4 +8,4 @@
 
 lub 
 
-`nodemon app.js`
+`nodemon server.js`

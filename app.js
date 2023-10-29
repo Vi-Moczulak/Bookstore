@@ -1,8 +1,15 @@
+// importuję zmienne środowiskowe
+require('dotenv').config();
+
 // importuję expresa
 const express = require('express');
 
 // tworzę instancję expresa
 const app = express();
+
+//
+const mongoose = require('mongoose');
+mongoose.connect(process.env.BD_LINK_PASS);
 
 // logger
 const morgan = require('morgan');

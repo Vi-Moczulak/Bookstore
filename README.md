@@ -9,3 +9,7 @@
 lub 
 
 `nodemon server.js`
+
+Projekt
+Backend - dowolna technologia 
+Api CRUD - baza danych 

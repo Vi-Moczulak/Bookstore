@@ -17,11 +17,14 @@ app.use(morgan('combined'));
 
 //body 
 const bodyParser = require('body-parser');
-app.use(bodyParser.json());
+app.use(bodyParser.json()); 
 
 // routy
 const bookRoutes = require('./api/routes/books');
 app.use('/books', bookRoutes);
+
+const userRoutes = require('./api/routes/user');
+app.use('/user', userRoutes);
 
 
 app.use((req, res, next) => {
